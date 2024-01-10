@@ -88,7 +88,7 @@ def contactmail():
 
     # Check if the username and password match a record in the database
     # query = "insert into students (uid, password) values (%s,%s)"
-    query = "insert into contactqueries (name,email,message) values ( %s, %s)"
+    query = "insert into contactqueries (name,email,message) values ( %s, %s,%s)"
     cursor.execute(query,(name,email,message))
     mydb.commit()
 
