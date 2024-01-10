@@ -84,6 +84,15 @@ def contactmail():
             </html>
             """
     SendEmail('shivanshkumar752@gmail.com', f"{name} contacted you via portfolio website", body)
+
+    cursor = mydb.cursor()
+
+    # Check if the username and password match a record in the database
+    # query = "insert into students (uid, password) values (%s,%s)"
+    query = "insert into contactqueries (name,email,message) values ( %s, %s)"
+    cursor.execute(query,(name,email,message))
+    mydb.commit()
+
     return render_template('contact.html', res = f'Thanks for contacting Us, {name}. We will get back to you shortly.')
 
 
