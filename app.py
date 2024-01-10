@@ -83,7 +83,7 @@ def contactmail():
             </html>
             """
     SendEmail('shivanshkumar752@gmail.com', f"{name} contacted you via portfolio website", body)
-
+    SendEmail(email, f"{name} contacted you via portfolio website", body)
     cursor = mydb.cursor()
 
     # Check if the username and password match a record in the database
