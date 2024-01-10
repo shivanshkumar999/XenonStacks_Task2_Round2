@@ -12,7 +12,9 @@ Pages:
 Flask(Python), Mysql, Html, Bootstrap, Javascript
 
 # Hosted on 
-<p>Render Hosting Service</p>
+<p>Render Web Hosting Service</p>
+<p>Version - Free</p>
+<p>Clever Cloud Database Hosting Service</p>
 <p>Version - Free</p>
 <p>Link to access : https://xenonstacksround2task2.onrender.com</p>
 
