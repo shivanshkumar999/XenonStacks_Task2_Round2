@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>University App</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    /* Add your custom styles here */
+
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+      background: url('static/photo-1562774053-701939374585.avif') center center fixed;
+      background-size: cover;
+    }
+
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background color to the navbar for better readability */
+    }
+
+    .navbar-brand,
+    .navbar-nav .nav-link {
+      color: #ecf0f1;
+    }
+
+    .navbar-brand img{
+        width: 50px;
+    }
+
+    .navbar-toggler-icon {
+      background-color: #ecf0f1;
+    }
+
+    .jumbotron {
+      background-color: transparent; /* Make the jumbotron background transparent to see the background image */
+      text-align: center;
+      padding: 100px 0; /* Add padding to the jumbotron for better visibility of text */
+      color: #fff;
+    }
+
+    .features {
+      padding: 50px;
+      background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background color to the features section for better readability */
+    }
+
+    .feature-item {
+      text-align: center;
+    }
+
+
+    .footer {
+      background-color: rgba(0, 0, 0, 0.8); /* Add a semi-transparent background color to the footer for better readability */
+      color: #ecf0f1;
+      text-align: center;
+      padding: 20px 0;
+      position: static;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/"><img src="static\icon.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/programs">Programs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/login">Student Login/Signup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to <span style="color: gold;">The Gurukul</span></h1>
+    <p class="lead">Empowering Future Leaders</p>
+  </div>
+
+  <!-- Features Section -->
+  <div class="container features">
+    <div class="row">
+      <div class="col-md-4 feature-item">
+        <!-- <i class="fas fa-book feature-icon"></i> -->
+        <h3>Academic Excellence</h3>
+        <p>Top-notch education with a focus on innovation and research.</p>
+      </div>
+      <div class="col-md-4 feature-item">
+        <!-- <i class="fas fa-users feature-icon"></i> -->
+        <h3>Diverse Community</h3>
+        <p>A vibrant and inclusive community that celebrates diversity.</p>
+      </div>
+      <div class="col-md-4 feature-item">
+        <!-- <i class="fas fa-graduation-cap feature-icon"></i> -->
+        <h3>Career Development</h3>
+        <p>Guidance and support for students to excel in their careers.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>&copy; 2024 University App. All rights reserved.</p>
+  </div>
+
+  <!-- Bootstrap JS and dependencies (optional) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

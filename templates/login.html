@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Contact Us</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-image: url("static/images.jfif");
+      background-size: cover;
+      color: white;
+      font-weight: bold;
+    }
+    .navbar-brand img{
+        width: 50px;
+    }
+
+    .navbar {
+      background-color: #2c3e50;
+    }
+
+    .navbar-brand,
+    .navbar-nav .nav-link {
+      color: #ecf0f1;
+    }
+
+    .navbar-toggler-icon {
+      background-color: #ecf0f1;
+    }
+
+    .header {
+      background: url('contact-header.jpg') center center fixed;
+      background-size: cover;
+      color: #fff;
+      text-align: center;
+      padding: 100px 0;
+    }
+
+    .contact-form {
+      padding: 50px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="static\icon.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/programs">Programs</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Student Login/Signup <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <div class="header">
+    <h1 class="display-4">Student Login</h1>
+    <p class="lead">Welcome Back</p>
+  </div>
+
+  <!-- Contact Form Section -->
+  <div class="container contact-form">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form action="/logintest" method="post" enctype="multipart/form-data">
+          <div class="form-group">
+            <label for="name">Your UID</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="email" placeholder="Enter your Password" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies (optional) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
