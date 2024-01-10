@@ -36,6 +36,8 @@ Flask(Python), Mysql, Html, Bootstrap, Javascript
 
 ![image](https://github.com/shivanshkumar999/XenonStacks_Task2_Round2/assets/67266253/cde2b3e0-b180-4a22-8c87-6ade945de77b)
 
+![image](https://github.com/shivanshkumar999/XenonStacks_Task2_Round2/assets/67266253/d0054b96-e100-4509-8668-09e8d3f326c2)
+
 ![image](https://github.com/shivanshkumar999/XenonStacks_Task2_Round2/assets/67266253/18da2cbb-e2b6-46fa-a6fd-cdb3c1b5435a)
 
 ![image](https://github.com/shivanshkumar999/XenonStacks_Task2_Round2/assets/67266253/da55ee47-ecb9-46da-9018-30d98542a079)
