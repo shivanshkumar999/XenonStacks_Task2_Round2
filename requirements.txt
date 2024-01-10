@@ -1,3 +1,4 @@
+Flask_MySQLdb==2.0.0
 Flask==3.0.0
 Flask_MySQLdb==2.0.0
 MySQL-python==1.2.5
