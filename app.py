@@ -6,14 +6,15 @@ import mysql.connector
 from flask import Flask, render_template, request, redirect, url_for, session
 from flask_mysqldb import MySQL
 import MySQLdb.cursors
+import os
 
 app = Flask(__name__)
 
 mydb = mysql.connector.connect(
-    host= '127.0.0.1',
-    user= 'root',
-    password= 'jamesbond990',
-    database= 'university',
+    host= os.environ['host'],
+    user= os.environ['user'],
+    password= os.environ['password'],
+    database= os.environ['database'],
 )
 
 # app.config['MYSQL_HOST'] = 'localhost'
