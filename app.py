@@ -5,7 +5,7 @@ from email.mime.text import MIMEText
 import mysql.connector
 from flask import Flask, render_template, request, redirect, url_for, session
 from flask_mysqldb import MySQL
-import MySQLdb.cursors
+import MySQLdb.cursors 
 import os
 
 app = Flask(__name__)
