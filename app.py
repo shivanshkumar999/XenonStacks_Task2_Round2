@@ -87,9 +87,9 @@ def logintest():
         conn = mysql.connector.connect(**db_config)
         cursor = conn.cursor()
 
-        query = "SELECT * FROM students WHERE uid = %s AND password = %s"
+        query = "SELECT * FROM students"
         cursor.execute(query, (uid, password))
-        student = cursor.fetchone()
+        student = cursor.rowcount
 
     # Close the database connection
         cursor.close()
